@@ -13,10 +13,10 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "unifreq"
+        default: "ssesik"
         type: choice
         options:
-          - unifreq
+          - ssesik
           - codesnas
       kernel_version:
         description: "Select kernel version"
