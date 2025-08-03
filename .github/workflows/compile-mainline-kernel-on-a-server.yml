@@ -13,15 +13,15 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "unifreq"
+        default: "YooLc"
         type: choice
         options:
-          - unifreq
+          - YooLc
           - codesnas
       kernel_version:
         description: "Select kernel version"
         required: false
-        default: "5.4.y"
+        default: "6.12.y"
         type: choice
         options:
           - 5.4.y
