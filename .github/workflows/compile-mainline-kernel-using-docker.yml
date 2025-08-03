@@ -13,10 +13,10 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "ssesik"
+        default: "YooLc"
         type: choice
         options:
-          - ssesik
+          - YooLc
           - codesnas
       kernel_version:
         description: "Select kernel version"
@@ -72,7 +72,7 @@ on:
       docker_image:
         description: "Select Armbian docker image"
         required: false
-        default: "bookworm"
+        default: "trixie"
         type: choice
         options:
           - trixie
