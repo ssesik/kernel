@@ -13,10 +13,10 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "YooLc"
+        default: "ssesik"
         type: choice
         options:
-          - YooLc
+          - ssesik
           - codesnas
       kernel_version:
         description: "Select kernel version"
